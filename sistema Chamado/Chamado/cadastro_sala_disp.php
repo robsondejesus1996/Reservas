@@ -78,7 +78,7 @@ if(!$_SESSION['login']) {
 							<option value="Laboratorio">Laboratorio</option>
 							<option value="Auditorio">Auditorio</option>
 							<option value="Ginasio">Ginasio</option>
-							<option value="Dispositivo">Dipositivo</option>
+							<option value="Dispositivo">Dispositivo</option>
 					</select>
 			</div>
 			<div class="form-group">
