@@ -3,18 +3,18 @@
 
 * Utilize a instrutura SQL abaixo para popular as tabelas do sistema:
 
-CREATE TABLE tb_chamados (
-  id_chamado int(3) NOT NULL,
-  tipo_problema varchar(75) NOT NULL,
-  descricao varchar(300) NOT NULL,
-  status varchar(10) NOT NULL DEFAULT 'pendente',
-  sala varchar(45) DEFAULT NULL,
-  iditem varchar(5) DEFAULT NULL,
-  data_envio varchar(18) DEFAULT NULL,
-  iduser varchar(50) DEFAULT NULL,
-  idtec varchar(50) DEFAULT NULL,
-  iduser_adm varchar(50) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE tb_chamados (<br>
+  id_chamado int(3) NOT NULL,<br>
+  tipo_problema varchar(75) NOT NULL,<br>
+  descricao varchar(300) NOT NULL,<br>
+  status varchar(10) NOT NULL DEFAULT 'pendente',<br>
+  sala varchar(45) DEFAULT NULL,<br>
+  iditem varchar(5) DEFAULT NULL,<br>
+  data_envio varchar(18) DEFAULT NULL,<br>
+  iduser varchar(50) DEFAULT NULL,<br>
+  idtec varchar(50) DEFAULT NULL,<br>
+  iduser_adm varchar(50) DEFAULT NULL<br>
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;<br>
 
 
 INSERT INTO tb_chamados (id_chamado, tipo_problema, descricao, status, sala, iditem, data_envio, iduser, idtec, iduser_adm) VALUES
