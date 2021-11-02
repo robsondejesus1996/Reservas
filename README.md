@@ -1,7 +1,7 @@
 ![unidavi](https://user-images.githubusercontent.com/31260719/139905606-d5602edc-1866-4389-9940-ea6216cabc52.png)
 
 
-Trabalho realizado para [A UNIDAVI - Centro Universitário para o Desenvolvimento do Alto Vale do Itajaí](https://https://www.unidavi.edu.br/)<br> O do trabalho realizado é ajudar na automatização para reservas de salas e equipamentos da instituição. O Sistema de Reserva de Salas e Equipamentos "SEM NOME" é o sistema usado pelos corpos acadêmico e administrativo presentes da instituição. 
+Trabalho realizado para [A UNIDAVI - Centro Universitário para o Desenvolvimento do Alto Vale do Itajaí](https://www.unidavi.edu.br/)<br> O do trabalho realizado é ajudar na automatização para reservas de salas e equipamentos da instituição. O Sistema de Reserva de Salas e Equipamentos "SEM NOME" é o sistema usado pelos corpos acadêmico e administrativo presentes da instituição. 
 
 
 
@@ -110,7 +110,7 @@ INSERT INTO tb_usuario (id_user, nome_user, login, email, senha, categoria, stat
   - senha: root
 
 
-*tela de login 
+* tela de login 
 
 
 ![login](https://user-images.githubusercontent.com/31260719/139909121-9dd17e96-5b8a-4d3b-9394-872dddc235b8.png)
